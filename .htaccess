@@ -1,0 +1,7 @@
+AuthUserFile "C:/wamp64/www/GoSecuri/.htpasswd"
+AuthName "Veuillez vous identifier"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
