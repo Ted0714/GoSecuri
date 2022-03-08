@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GoSecuri" />
+        <module name="dossier_fichier_git_MSPR_Java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dossier_fichier_git_MSPR_Java" target="11" />
       <module name="GoSecuri" target="11" />
     </bytecodeTargetLevel>
   </component>
