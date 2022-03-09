@@ -27,15 +27,15 @@ public class GoSecuri {
     public static void main(String[] args)  {
         
         //URL de récupération des fichiers txt
-        String fileAgent = "C:/wamp64/www/GoSecuri/staff.txt";
-        String fileTools = "C:/wamp64/www/GoSecuri/liste.txt";
+        String fileAgent = "D:/Users/Nathan/.jenkins/workspace/GoSecuri/staff.txt";
+        String fileTools = "D:/Users/Nathan/.jenkins/workspace/GoSecuri/liste.txt";
         
         //récupération des données des fichiers txt et converti dans un tableau
         List listAgent = ParsingFile(fileAgent);
         List listTools = ParsingFile(fileTools);
         
         //création du fichier .htpasswd
-        File fileHtpasswd = new File("C:/wamp64/www/GoSecuri/.htpasswd");
+        File fileHtpasswd = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/.htpasswd");
         
         List<String> Identification = SecurityFile(fileAgent);
         
@@ -58,7 +58,7 @@ public class GoSecuri {
         
         
         //création ou update des pages html
-        File file = new File("C:/wamp64/www/GoSecuri/Accueil.html");
+        File file = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/Accueil.html");
 
         if(!file.exists())
         {
@@ -393,7 +393,7 @@ public class GoSecuri {
         
         for(int f = 0; f < ficheAgent.size(); f++)
         {
-            try(BufferedReader brL = new BufferedReader(new FileReader("C:/wamp64/www/GoSecuri/"+ficheAgent.get(f)+".txt"))) 
+            try(BufferedReader brL = new BufferedReader(new FileReader("D:/Users/Nathan/.jenkins/workspace/GoSecuri/"+ficheAgent.get(f)+".txt"))) 
             {
                 String lineL;
                 int compteur = 0;
