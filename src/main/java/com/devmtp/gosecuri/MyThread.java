@@ -32,8 +32,8 @@ public class MyThread extends Thread {
         
         @Override
         public void run() {
-            File agentHtml = new File("C:/wamp64/www/GoSecuri/"+Agent+".html");
-            String ficheAgentTxt = "C:/wamp64/www/GoSecuri/"+Agent+".txt";
+            File agentHtml = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/"+Agent+".html");
+            String ficheAgentTxt = "D:/Users/Nathan/.jenkins/workspace/GoSecuri/"+Agent+".txt";
             
             List ficheAgent = ParsingFile(ficheAgentTxt);
             
