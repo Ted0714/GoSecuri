@@ -10,4 +10,28 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+        <build>
+<finalName>GoSecuri</finalName>
+<plugins>
+
+
+<!-- Make this jar executable -->
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-jar-plugin</artifactId>
+                                
+<configuration>
+ <!-- DO NOT include log4j.properties file in your Jar -->
+
+ <archive>
+<manifest>
+<!-- Jar file entry point -->
+<mainClass>com.devmtp.gosecuri.GoSecuri</mainClass>
+</manifest>
+ </archive>
+</configuration>
+</plugin>
+
+</plugins>
+</build>
 </project>
