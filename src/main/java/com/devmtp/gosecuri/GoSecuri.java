@@ -359,7 +359,6 @@ public class GoSecuri {
                 }
                      
                 list.add(line);
-                System.out.println(line);
             }
         }
         catch (IOException e) {
