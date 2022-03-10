@@ -32,7 +32,7 @@ public class MyThread extends Thread {
         
         @Override
         public void run() {
-            File agentHtml = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/"+Agent+".html");
+            File agentHtml = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/publisher/"+Agent+".html");
             String ficheAgentTxt = "D:/Users/Nathan/.jenkins/workspace/GoSecuri/"+Agent+".txt";
             
             List ficheAgent = ParsingFile(ficheAgentTxt);
