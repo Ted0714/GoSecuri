@@ -35,7 +35,7 @@ public class GoSecuri {
         List listTools = ParsingFile(fileTools);
         
         //création du fichier .htpasswd
-        File fileHtpasswd = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/.htpasswd");
+        File fileHtpasswd = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/publisher/.htpasswd");
         
         List<String> Identification = SecurityFile(fileAgent);
         
@@ -57,7 +57,7 @@ public class GoSecuri {
         
         
         //création ou update des pages html
-        File file = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/index.html");
+        File file = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/publisher/index.html");
 
         if(!file.exists())
         {
