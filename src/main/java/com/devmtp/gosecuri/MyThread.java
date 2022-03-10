@@ -94,7 +94,6 @@ public class MyThread extends Thread {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                System.out.println("Mon traitement de l'agent : " + Agent);
             }
     }
 }
