@@ -88,7 +88,6 @@ public class MyThread extends Thread {
                         {   
                             bw.write(line);
                             bw.newLine();
-                            System.out.println(line);
                         }
                     bw.close();
                     writer.close();
