@@ -48,7 +48,6 @@ public class GoSecuri {
             {   
                 bwI.write(lineI);
                 bwI.newLine();
-                System.out.println(lineI);
             }
             bwI.close();
             writerI.close();
@@ -333,7 +332,6 @@ public class GoSecuri {
                         {   
                             bw.write(line);
                             bw.newLine();
-                            System.out.println(line);
                         }
                     bw.close();
                     writer.close();
@@ -380,8 +378,6 @@ public class GoSecuri {
             String lineL;
             while ((lineL = brL.readLine()) != null) {
                 listIdentifiant.add(lineL);
-                //listIdentifiant.add("");
-                System.out.println(lineL);
             }
         }
         catch (IOException e) {
@@ -400,11 +396,7 @@ public class GoSecuri {
                 while ((lineL = brL.readLine()) != null) {
                     if (compteur == 3)
                     {
-                        /*if(f != 0)
-                            listIdentifiant.set(f*2, lineL);
-                        else*/
-                            listIdentifiant.set(f, listIdentifiant.get(f)+":"+lineL);
-                        System.out.println("---------------------------------------------------------------------"+lineL);
+                        listIdentifiant.set(f, listIdentifiant.get(f)+":"+lineL);
                         break;
                     }
                     compteur++;
