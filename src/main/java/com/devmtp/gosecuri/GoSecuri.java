@@ -57,7 +57,7 @@ public class GoSecuri {
         
         
         //création ou update des pages html
-        File file = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/Accueil.html");
+        File file = new File("D:/Users/Nathan/.jenkins/workspace/GoSecuri/index.html");
 
         if(!file.exists())
         {
