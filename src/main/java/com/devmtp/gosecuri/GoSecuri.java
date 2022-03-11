@@ -90,7 +90,7 @@ public class GoSecuri {
                     "<div class=\"box_discord\">",
                     "<div class=\"container px-lg-5\">",
                     "<div class=\"row mx-lg-n5\">",
-                    "<div class=\"col py-3 px-lg-5\"><h2 class=\"textH1\"></h2><p class=\"para\">GoSecuri</p> <p class=\"bvn\">Agence de sécurité</p></div>",
+                    "<div class=\"col py-3 px-lg-5\"><h2 class=\"textH1\"></h2><p class=\"para\">GoSecuri</p> <p class=\"bvn\">Agence de s&eacute;curit&eacute;</p></div>",
                     "</div>",
                     "</div>",
                     "</div>",
